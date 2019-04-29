@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47102d1d991a704483439d01e745a3c, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  Enemies:
+  - SpawnChanceByLevel:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.087501526
+        value: 0.3
+        inSlope: -0.0010044657
+        outSlope: -0.0010044657
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.18285744
+      - serializedVersion: 3
+        time: 10
+        value: 1
+        inSlope: 0.00044806767
+        outSlope: 0.00044806767
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.44596088
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Prefabs:
+    - {fileID: 6836014490599348821, guid: 834014f65d0457b4e8083f35d9d4924e, type: 3}
+    - {fileID: 6836014490599348821, guid: 35756f68cdffaff4bbfe84a24d0f9adb, type: 3}
+    - {fileID: 6836014490599348821, guid: 5dd168efdde90b44db531b05f5ad76dc, type: 3}
+    - {fileID: 6836014490599348821, guid: 23adf491589a92c47be5d7030a083176, type: 3}
+    WeaponCountMin: 1
+    WeaponCountMax: 1
+    Weapons:
+    - {fileID: 4404293204693207142, guid: 5475e9da53cf40d41b03cf727b8c7c05, type: 3}
+    - {fileID: 4404293204693207142, guid: 6ed03bce164ecaa4cbe81229def44706, type: 3}
+    - {fileID: 4404293204693207142, guid: 7a22a56c840eb6b4b8a54144a5d34fe0, type: 3}
+    - {fileID: 4404293204693207142, guid: 2ec0dcfc05d755143af9dac4fb2cc648, type: 3}
+  - SpawnChanceByLevel:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.087501526
+        value: 0.01
+        inSlope: 0.28266203
+        outSlope: 0.28266203
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.03750001
+      - serializedVersion: 3
+        time: 10
+        value: 1
+        inSlope: 0.00044806767
+        outSlope: 0.00044806767
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.44596088
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Prefabs:
+    - {fileID: 6836014490599348821, guid: 834014f65d0457b4e8083f35d9d4924e, type: 3}
+    - {fileID: 6836014490599348821, guid: 35756f68cdffaff4bbfe84a24d0f9adb, type: 3}
+    - {fileID: 6836014490599348821, guid: 5dd168efdde90b44db531b05f5ad76dc, type: 3}
+    - {fileID: 6836014490599348821, guid: 23adf491589a92c47be5d7030a083176, type: 3}
+    WeaponCountMin: 1
+    WeaponCountMax: 1
+    Weapons:
+    - {fileID: 4404293204693207142, guid: 5475e9da53cf40d41b03cf727b8c7c05, type: 3}
+    - {fileID: 4404293204693207142, guid: 6ed03bce164ecaa4cbe81229def44706, type: 3}
+    - {fileID: 4404293204693207142, guid: 7a22a56c840eb6b4b8a54144a5d34fe0, type: 3}
+    - {fileID: 4404293204693207142, guid: 2ec0dcfc05d755143af9dac4fb2cc648, type: 3}
+  ShopItems:
+  - SpawnChanceByLevel:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Prefab: {fileID: 4404293204693207142, guid: 4618ab803264ff743b2d1f23a79a201e,
+      type: 3}
+    Icon: {fileID: 2781533676904308770, guid: 733e9a1feef2eb048a285f30a3189eb1, type: 3}
+    Description: 'Simple Auto Turret
+
+
+      Type: Turret'
+    PriceRange:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: 49
+        outSlope: 49
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10
+        value: 500
+        inSlope: 49
+        outSlope: 49
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  - SpawnChanceByLevel:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.18285744
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Prefab: {fileID: 4404293204693207142, guid: acf3ab9bf3c79e24ca7b62fed54c6dfb,
+      type: 3}
+    Icon: {fileID: 2781533676904308770, guid: 733e9a1feef2eb048a285f30a3189eb1, type: 3}
+    Description: 'Simple Rotating Laser
+
+
+      Type: Rifle'
+    PriceRange:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: 49
+        outSlope: 49
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10
+        value: 500
+        inSlope: 49
+        outSlope: 49
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  - SpawnChanceByLevel:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Prefab: {fileID: 4404293204693207142, guid: 8f935ee8a36872b43a9ccbc664dfb2ea,
+      type: 3}
+    Icon: {fileID: 2781533676904308770, guid: 733e9a1feef2eb048a285f30a3189eb1, type: 3}
+    Description: 'Simple Laser
+
+
+      Type: Rifle'
+    PriceRange:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: 40
+        outSlope: 40
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 50
+        inSlope: 40
+        outSlope: 40
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  - SpawnChanceByLevel:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Prefab: {fileID: 4404293204693207142, guid: d9d62e7663cd4ba48a85cea7edd15769,
+      type: 3}
+    Icon: {fileID: 2781533676904308770, guid: 733e9a1feef2eb048a285f30a3189eb1, type: 3}
+    Description: 'Simple Beam
+
+
+      Type: Beam'
+    PriceRange:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 16
+        inSlope: 48.4
+        outSlope: 48.4
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10
+        value: 500
+        inSlope: 48.4
+        outSlope: 48.4
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  RerollCost:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 2
+      inSlope: 3.2666667
+      outSlope: 3.2666667
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 100
+      inSlope: 4.8670506
+      outSlope: 4.8670506
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.095332526
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Bosses:
+  - SpawnChanceByLevel:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Prefabs:
+    - {fileID: 6836014490599348821, guid: bfba2449fda3e70488579118d54bbd9a, type: 3}
+    WeaponCountMin: 4
+    WeaponCountMax: 4
+    Weapons:
+    - {fileID: 4404293204693207142, guid: 26812b76e1bf7fe429e8f734802252c4, type: 3}
+    - {fileID: 4404293204693207142, guid: dc6cfa3f2e3513043aae5d8aa7085b4f, type: 3}
